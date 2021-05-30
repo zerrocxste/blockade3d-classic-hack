@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{3e326348-6849-4d14-9bbb-74e2bab0d683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\memory_utils">
+      <UniqueIdentifier>{aea6ae96-5b5d-41ff-b40b-801817470c7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{fce0914d-1bc6-4a3c-9428-f8e2fbdef4db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\imgui">
+      <UniqueIdentifier>{17726041-bbca-4e56-9dae-adebdbe29050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\minhook">
+      <UniqueIdentifier>{267bdd44-f340-4517-9ab0-30774b801488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\draw_list">
+      <UniqueIdentifier>{d1b5b2db-debd-47e1-af66-66961a02a496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\math">
+      <UniqueIdentifier>{15131566-66b8-455e-8000-60d066c8871e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\math\matrix4x4">
+      <UniqueIdentifier>{1ded8df6-a404-4de9-a5d0-65dbc9167a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\math\vector">
+      <UniqueIdentifier>{1e735c21-986c-4a23-bd32-eef19b29abf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\shellcode_patch_helper">
+      <UniqueIdentifier>{0435c23d-d7ce-4802-add0-1658d7e90fd9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dllmain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory_utils\memory_utils.cpp">
+      <Filter>src\memory_utils</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui\imgui.cpp">
+      <Filter>libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui\imgui_demo.cpp">
+      <Filter>libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui\imgui_draw.cpp">
+      <Filter>libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui\imgui_impl_dx9.cpp">
+      <Filter>libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui\imgui_impl_dx11.cpp">
+      <Filter>libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui\imgui_impl_win32.cpp">
+      <Filter>libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui\imgui_tables.cpp">
+      <Filter>libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\imgui\imgui_widgets.cpp">
+      <Filter>libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw_list\draw_list.cpp">
+      <Filter>src\draw_list</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\includes.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory_utils\memory_utils.h">
+      <Filter>src\memory_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imconfig.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imgui.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imgui_impl_dx9.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imgui_impl_dx11.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imgui_impl_win32.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imgui_internal.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imstb_rectpack.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imstb_textedit.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\imgui\imstb_truetype.h">
+      <Filter>libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\minhook\minhook.h">
+      <Filter>libs\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw_list\draw_list.h">
+      <Filter>src\draw_list</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\matrix4x4\matrix4x4.h">
+      <Filter>src\math\matrix4x4</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\vector\vector.h">
+      <Filter>src\math\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shellcode_patch_helper\shellcode_patch_helper.h">
+      <Filter>src\shellcode_patch_helper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libs\minhook\minhook.lib">
+      <Filter>libs\minhook</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
